@@ -11,6 +11,8 @@
 	<description>Make homeschool fun again.</description>
 
 	<author href = "http:github.com/mariabultena/To-Do-Dice" email = "mariabultena@gmail.com"> Maria Bultena </author>
+	
+	<plugin name="cordova-plugin-media" spec="~2.4.1" />
 
 	<icon src="icon.png"/>
 
