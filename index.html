@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<div class="container-fluid">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<script src="jquery-3.1.1.min.js"></script>
+	<title>To Do Today</title>
+</head>
+<body>
+<div id="diceDiv">
+	<div id="die1" class="dice">0</div>
+	<div id="die2" class="dice">0</div>
+	<button onclick="rollDice()">Roll Dice</button>
+	<h1 id="status" style="clear:left;"></h1>
+</div>
+<div id="myDIV" class="header">
+	<h1>To Do Today</h1>
+	<input type="text" id="myInput" placeholder="Task...">
+	<span onclick="newElement()" class="addBtn">Add</span>
+	</div>
+
+<ul id="myUL">
+	<li>Click to Mark Done</li>
+	<li>Click 'x' to Remove Item</li>
+	
+
+</ul>
+<script type="text/javascript" src="todo.js"></script>
+
+<audio id="buzzer" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+<div class="text-center">
+  
+  <div id="timeDiv">
+    <h2 id="timeType"></h2>
+    <h1 id="title1">Session Time</h1>
+    <button type="button" id="minus5Clock">-</button>
+    <h2 id="num">5</h2>
+    <button type="button" id="add5Clock">+</button>
+    <button type="button" id="reset">Reset</button>
+</div>
+  <div id="breakDiv">
+    <h1 id="title1">Break Time</h1>
+    <button type="button" id="minus5Break">-</button>
+    <h2 id="breakNum">5</h2>
+    <button type="button" id="add5Break">+</button>
+  </div>
+  <div id="startDiv">
+  <button type="button" id="start">Start</button>
+	</div>
+</div>
+</body>
+</div>
+</html>

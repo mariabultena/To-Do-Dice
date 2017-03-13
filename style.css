@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 12px 8px 12px 40px;
+	background: #eee;
+	font-size: 19px;
+	transition: 0.2s;
+
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+ul li:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+ul li:hover {
+	background: #ddd;
+}
+
+ul li.checked{
+	background: #888;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+ul li.checked::before{
+	content: '';
+	position: absolute;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	top: 10px;
+	left: 16px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+	background-color: #f44336;
+	color: white;
+}
+
+.header {
+	background-color: #4443ff;
+	padding: 30px 40px;
+	color: white;
+	text-align: center;
+}
+
+/*Clear floats after the header */
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+input {
+	border: none;
+	width: 75%;
+	padding: 10px;
+	float: left;
+	font-size: 16px;
+}
+
+.addBtn {
+	padding: 10px;
+	width: 25%;
+	background: #d9d9d9;
+	color: #555;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.addBtn:hover {
+	background-color: #bbb;
+}
+
+.dice {
+	display: inline;
+	width: 32px;
+	background: #f5f5f5;
+	border: #999 1px solid;
+	padding: 14px;
+	font-size: 24px;
+	margin: 10px;
+}
+
+h2 {
+	
+  	display: inline;
+  	margin: 10px;
+  	font-size: 40px;
+}
+
+h1 {
+
+}
+
+#timeDiv {
+	text-align: center;
+}
+
+#breakDiv {
+	text-align: center;
+}
+
+#startDiv {
+	margin-top: 20px;
+  	text-align: center;
+  	background-color: #fdfdfd;
+}
+
+button {
+	background-color: #4443ff;
+	cursor: pointer;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block; 
+	font-size: 24px;
+}
+
+#title1{
+	text-align: center;
+  	font-size: 60px;
+}
