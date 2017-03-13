@@ -1,4 +1,4 @@
-var chore = ["Clean Kitchen ", "Clean Playroom ", "Clean Dining Room ", "Clean Basement ", "Clean Bathroom ", "do History ", "do Science ", "Clean Living Room ", "30 minutes of yardwork", "do Laundry", "do Math ", "do Spelling", "do Grammar", "do Reading",  "do Writing" ];
+var chore = [ "do History ", "do Science ", "do Math ", "do Spelling", "do Grammar", "do Reading",  "do Writing" ];
 var choreList = [];
 console.log(chore.length);
 
