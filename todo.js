@@ -83,6 +83,9 @@ function newElement() {
 	
 $(document).ready(function() {
   var buzzer = $("#buzzer")[0];
+  var buzzer = document.createElement('audio');
+  buzzer.setAttribute('src', 'buzzer.mp3');
+
   var count = parseInt($("#num").html());
   var breakCount = parseInt($("#breakNum").html());
   
